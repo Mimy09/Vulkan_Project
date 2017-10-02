@@ -53,6 +53,7 @@ private:
 	VkDebugReportCallbackEXT callback;
 	VkPhysicalDevice physicalDevice = VK_NULL_HANDLE;
 	VkDevice device;
+	VkSurfaceKHR surface;
 public:
 	void run() {
 		initWindow();
